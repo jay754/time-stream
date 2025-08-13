@@ -1,0 +1,149 @@
+/* 
+  Localizable.strings
+  TimeStream
+
+  Latest update by Pantelis Grigoriou 14 September 2023.
+  
+*/
+
+
+"skip" = "Skip";
+"next" = "Next";
+"something.went.wrong" = "Something went wrong, please try again!";
+"oops" = "Oops!";
+"too.many.attempts" = "There are too many login attempts from this device, try again later!";
+
+
+// Code validation
+
+"code.validation.subtitle" = "Please enter the 6-digit code sent to you at ";
+"code.validation.phone.exists" = "There is already an account registered to this phone number, please pick another one!";
+
+"version" = "Version";
+"terms" = "Terms and conditions";
+"privacy" = "Privacy policy";
+"no.email.set" = "You don't have an email client set on the phone, send us an email at:";
+
+"joined" = "Joined ";
+
+"more" = "More";
+"report.user" = "Report user";
+"share.user" = "Share profile";
+"delete" = "Delete";
+"cancel" = "Cancel";
+"share" = "Share";
+"your.message" = "My message";
+"reply.from" = "Reply from";
+"request.from" = "Question from";
+
+"you.charge" = "You charge";
+"to" = "to";
+
+"set.price.message" = "Set your rate before enabling your availability!";
+"set.bank.message" = "Add your details in order to be able to receive payments.";
+
+"follow" = "Follow";
+"unfollow" = "Unfollow";
+
+"no.related.videos" = "There are no related videos.";
+
+"no.profile.videos" = "Post videos using + on the tab bar.
+
+Introduce yourself or share your video insights!";
+"no.profile.private.videos" = "Ask an expert for personalized video answers.
+Public answers can be posted under your profile.
+Private answers can be posted and accessed here.";
+"no.other.profile.videos" = "Not any videos yet. Check back later";
+
+"most.popular" = "Most popular";
+"latest" = "Latest";
+"respond.to" = "Respond to";
+"request.for" = "Ask";
+
+"request.button.title" = "Request video  |  ";
+
+"report" = "Report";
+"report.reasons.user" = "What is the reason you're reporting this user";
+"report.reasons.video" = "What is the reason you're reporting this video";
+
+
+"reason.1" = "Against terms & conditions";
+"reason.2" = "Bullying or harassment";
+"reason.3" = "Copyright infringement";
+"reason.4" = "Frauds and scams";
+"reason.5" = "Hateful or abusive content";
+"reason.6" = "Pornography or sexual content";
+"reason.7" = "Prohibited activities";
+"reason.8" = "Spam or misleading";
+"reason.9" = "Violent or repulsive content";
+"reason.10" = "Other";
+
+"new.video.request" = "New question";
+"video.request" = "Video question";
+
+"new.video.response" = "New video response";
+"video.response" = "Video response";
+
+"video.declined" = "No reply";
+
+"bank.account.set" = "Edit bank account details";
+"bank.account.pending" = "Pending verification";
+"price" = "Price";
+"price.wrong.value" = "Price needs to be more than 2!";
+
+"popular.creators" = "Popular profiles";
+
+"no.items.for.your.search.criteria" = "There are no results for your search criteria.";
+"categories" = "Topics";
+
+
+"are.you.sure.delete" = "Are you sure you want to delete your account? This will delete all your data.";
+"uknown.user" = "Unknown user";
+
+"tip.details.text" = "Show your appreciation with as little as %@3 or more.";
+
+"configure" = "Configure";
+"enabled" = "Enabled";
+"disabled" = "Disabled";
+"details" = "Details";
+"start" = "Start";
+"select" = "Select";
+"set" = "Set";
+
+"payments.onboarding" = "Start earning";
+"payments.onboarding.link.not.ready" = "Thank you for your details! We're reviewing them and will notify you promptly, once your account is ready.";
+
+"registration.placeholder" = "Type your full name (2 - 100 characters)";
+"registration.placeholder.min2" = "(2 - 100 characters)";
+
+"bio.placeholder" = "Type your bio (max 90 characters)";
+"bio.placeholder.min" = "(max 90 characters)";
+
+"new.video" = "Enter hashtags (min 1)";
+"new.video.min" = "(min 1)";
+
+"payment.details.price" = "Enter amount (minimum 2)";
+"payment.details.price.min" = "(minimum 2)";
+
+"add.a.profile.picture" = "add a profile picture";
+"enter.your.name" = "enter your name";
+"select.your.expertise" = "Topics of interest";
+"agree.tc" = "agree with the terms and conditions";
+"missing.fields" = "Missing fields";
+"to.continue" = "To continue the registration you need to ";
+
+
+"data.collection" = "Onboarding";
+"data.collection.question" = "Do you want to register as an individual or business?";
+"data.collection.invidual" = "Individual";
+"data.collection.business" = "Business";
+
+"report.thank.you" = "Thank you!";
+"report.your.report.was.sent" = "Your report was sent.";
+
+"auth.disclaimer" = "By continuing, you agree to our Terms & Conditions and Privacy Policy and Prohibited Activities Policy.";
+"auth.terms" = "Terms & Conditions";
+"auth.privacy" = "Privacy Policy";
+"auth.activities" = "Prohibited Activities Policy";
+"select.category.of.interest" = "Pick one topic";
+"select.category.of.main.interest" = "Top of the mind topic of interest!";

@@ -1,0 +1,9 @@
+<svg id="noun_split_3558032" xmlns="http://www.w3.org/2000/svg" width="26" height="21" viewBox="0 0 26 21">
+  <path id="Path" d="M2.633,13.125H6.586A1.312,1.312,0,0,0,7.9,11.813h0A1.312,1.312,0,0,0,6.586,10.5H2.633V2.625H6.586A1.312,1.312,0,0,0,7.9,1.313h0A1.312,1.312,0,0,0,6.586,0H2.633A2.629,2.629,0,0,0,0,2.625V10.5A2.629,2.629,0,0,0,2.633,13.125Z" transform="translate(0 3.938)" fill="#fff"/>
+  <rect id="Rectangle" width="4.522" height="1.989" rx="0.995" transform="translate(9.043 4.311)" fill="#fff"/>
+  <rect id="Rectangle_Copy_2" data-name="Rectangle Copy 2" width="4.522" height="1.989" rx="0.995" transform="translate(9.043 14.811)" fill="#fff"/>
+  <g id="noun_play_2284380" transform="translate(6.783 7.737)">
+    <path id="Path-2" data-name="Path" d="M0,4.86a.6.6,0,0,0,.9.581L4.218,3.334a.691.691,0,0,0,0-1.144L.9.086A.6.6,0,0,0,0,.664Z" fill="#fff"/>
+  </g>
+  <path id="Shape" d="M0,19.684V1.317a1.316,1.316,0,1,1,2.633,0V3.938H7.9a2.629,2.629,0,0,1,2.633,2.625v7.875A2.629,2.629,0,0,1,7.9,17.062H2.633v2.622a1.316,1.316,0,0,1-2.633,0Z" transform="translate(15.468)" fill="#fff"/>
+</svg>

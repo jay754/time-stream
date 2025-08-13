@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="31px" viewBox="0 0 36 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Videos active</title>
+    <g id="v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-profile-" transform="translate(-124.000000, -670.000000)" fill="#3772E7">
+            <g id="Videos-active" transform="translate(124.000000, 670.000000)">
+                <g id="Group-4" transform="translate(0.000000, 27.000000)">
+                    <rect id="Rectangle" x="0" y="0" width="36" height="4" rx="2"></rect>
+                </g>
+                <g id="My-videos---inactive" transform="translate(7.000000, 0.000000)" fill-rule="nonzero">
+                    <g id="noun_Video_1093340">
+                        <path d="M11.8064516,0 C14.5976414,-5.12733238e-16 16.9436811,1.90591381 17.614146,4.48731669 L20.4777405,2.60131229 C20.9821924,2.28854655 21.5987447,2.2601133 22.1312217,2.54444579 C22.6636987,2.82877829 23,3.39744329 23,4.02297478 L23,14.0030454 C22.9719749,14.6001437 22.6636987,15.1688087 22.1312217,15.4531412 C21.8789958,15.5953074 21.6267698,15.6521739 21.3745439,15.6521739 C21.0662677,15.6521739 20.7579915,15.5668742 20.5057656,15.3962747 L17.6154361,13.5077074 C16.9466952,16.0916366 14.5994345,18 11.8064516,18 L6,18 C2.6862915,18 4.05812251e-16,15.3137085 0,12 L0,6 C-4.05812251e-16,2.6862915 2.6862915,6.08718376e-16 6,0 L11.8064516,0 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29" height="29" viewBox="0 0 29 29">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="29" height="29" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#afb7c5" flood-opacity="0.584"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="Icon" d="M3.536,2.893V.321a.321.321,0,0,0-.643,0V2.893H.321a.321.321,0,0,0,0,.643H2.893V6.107a.321.321,0,0,0,.643,0V3.536H6.107a.321.321,0,0,0,0-.643Z" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Add" transform="translate(6 4)">
+    <g transform="matrix(1, 0, 0, 1, -6, -4)" filter="url(#Oval)">
+      <circle id="Oval-2" data-name="Oval" cx="8.5" cy="8.5" r="8.5" transform="translate(6 4)" fill="#3772e7"/>
+    </g>
+    <g id="Icons_Plus" data-name="Icons / Plus" transform="translate(5.286 5.286)">
+      <path id="Icon-2" data-name="Icon" d="M3.536,2.893V.321a.321.321,0,0,0-.643,0V2.893H.321a.321.321,0,0,0,0,.643H2.893V6.107a.321.321,0,0,0,.643,0V3.536H6.107a.321.321,0,0,0,0-.643Z" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Compact-Rounded-Regular.otf">
+            <string>SFCompactRounded-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" ambiguous="YES" id="iN0-l3-epB" customClass="HashtagItem" customModule="TimeStream" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="135"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p7P-Wn-Kvy">
+                    <rect key="frame" x="0.0" y="0.0" width="402" height="25"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" text="#bam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjj-rV-sTZ">
+                            <rect key="frame" x="10" y="4.5" width="382" height="16"/>
+                            <fontDescription key="fontDescription" name="SFCompactRounded-Regular" family="SF Compact Rounded" pointSize="13"/>
+                            <color key="textColor" red="0.21568627450980393" green="0.44705882352941173" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.91764705882352937" green="0.95294117647058818" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="xjj-rV-sTZ" firstAttribute="centerY" secondItem="p7P-Wn-Kvy" secondAttribute="centerY" id="8kL-vr-sVM"/>
+                        <constraint firstAttribute="height" constant="25" id="Azr-pd-Z2x"/>
+                        <constraint firstItem="xjj-rV-sTZ" firstAttribute="leading" secondItem="p7P-Wn-Kvy" secondAttribute="leading" constant="10" id="gW8-Di-sm3"/>
+                        <constraint firstAttribute="trailing" secondItem="xjj-rV-sTZ" secondAttribute="trailing" constant="10" id="uiw-oS-jbU"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="hq2-BY-AvU" appends="YES" id="ojn-fr-V6z"/>
+                    </connections>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="p7P-Wn-Kvy" secondAttribute="bottom" id="6I1-OR-dJW"/>
+                <constraint firstItem="p7P-Wn-Kvy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Cl9-It-yCe"/>
+                <constraint firstAttribute="trailing" secondItem="p7P-Wn-Kvy" secondAttribute="trailing" constant="12" id="a6X-1k-VlW"/>
+                <constraint firstItem="p7P-Wn-Kvy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="x1L-pg-FVS"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="containerView" destination="p7P-Wn-Kvy" id="R6Z-Lj-Cgc"/>
+                <outlet property="label" destination="xjj-rV-sTZ" id="8qS-so-zAT"/>
+            </connections>
+            <point key="canvasLocation" x="-197.10144927536234" y="-176.45089285714286"/>
+        </view>
+        <tapGestureRecognizer id="hq2-BY-AvU">
+            <connections>
+                <action selector="didTap:" destination="iN0-l3-epB" id="BQQ-rF-bNZ"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

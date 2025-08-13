@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="17px" viewBox="0 0 11 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Arrow - Right</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-profile---fee-+-docations-added" transform="translate(-359.000000, -542.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-7" transform="translate(20.000000, 530.000000)">
+                <g id="Arrow" transform="translate(339.000000, 12.000000)">
+                    <g id="Back-icon" transform="translate(5.104105, 8.454361) rotate(-90.000000) translate(-5.104105, -8.454361) translate(-3.350256, 3.350256)">
+                        <path d="M13.444006,5.37721604 L5.65877855,13.1624435 C5.40377854,13.4174435 5.06377853,13.5584662 4.70252852,13.5584662 C4.34127851,13.5584662 4.00127851,13.4174435 3.7462785,13.1624435 C3.49127849,12.9074435 3.35025576,12.5674435 3.35025576,12.2061935 C3.35025576,11.8449435 3.49127849,11.5049435 3.7462785,11.2499435 L9.8933241,5.10482967 L3.7462785,-1.04221593 C3.21889212,-1.56960231 3.21889212,-2.4273296 3.7462785,-2.95471598 C4.27366488,-3.48210236 5.13139217,-3.48210236 5.65877855,-2.95471598 L13.444006,4.8324433 C13.5966196,4.98312512 13.5966196,5.22653422 13.444006,5.37721604 Z" transform="translate(8.454361, 5.104105) scale(-1, 1) rotate(90.000000) translate(-8.454361, -5.104105) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

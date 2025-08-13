@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Compact-Rounded-Regular.otf">
+            <string>SFCompactRounded-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CategoryItem" customModule="TimeStream" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="81"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xo1-C0-w9Q">
+                    <rect key="frame" x="0.0" y="0.0" width="404" height="81"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEP-rq-fil">
+                            <rect key="frame" x="12" y="0.0" width="380" height="81"/>
+                            <fontDescription key="fontDescription" name="SFCompactRounded-Regular" family="SF Compact Rounded" pointSize="13"/>
+                            <color key="textColor" name="accent-color"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" name="accent-tertiary-color"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="HEP-rq-fil" firstAttribute="top" secondItem="Xo1-C0-w9Q" secondAttribute="top" id="ANt-rA-nTb"/>
+                        <constraint firstAttribute="bottom" secondItem="HEP-rq-fil" secondAttribute="bottom" id="JpF-F3-qQA"/>
+                        <constraint firstAttribute="trailing" secondItem="HEP-rq-fil" secondAttribute="trailing" constant="12" id="tNO-xC-1iu"/>
+                        <constraint firstItem="HEP-rq-fil" firstAttribute="leading" secondItem="Xo1-C0-w9Q" secondAttribute="leading" constant="12" id="w0u-Dx-TQr"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Atq-G0-eHf" appends="YES" id="F4M-CH-X3n"/>
+                    </connections>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Xo1-C0-w9Q" secondAttribute="bottom" id="2Gv-A6-Tp3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Xo1-C0-w9Q" secondAttribute="trailing" constant="10" id="7sS-zX-gkk"/>
+                <constraint firstItem="Xo1-C0-w9Q" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="XJg-WD-Q7m"/>
+                <constraint firstItem="Xo1-C0-w9Q" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ih4-3Z-2X7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="container" destination="Xo1-C0-w9Q" id="jZJ-On-xTE"/>
+                <outlet property="label" destination="HEP-rq-fil" id="aky-S1-bob"/>
+            </connections>
+            <point key="canvasLocation" x="155.07246376811597" y="-647.20982142857144"/>
+        </view>
+        <tapGestureRecognizer id="Atq-G0-eHf">
+            <connections>
+                <action selector="tapped:" destination="iN0-l3-epB" id="9gm-fe-hvR"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <namedColor name="accent-color">
+            <color red="0.27450980392156865" green="0.44313725490196076" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="accent-tertiary-color">
+            <color red="0.33725490196078434" green="0.59999999999999998" blue="0.93333333333333335" alpha="0.11999999731779099" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

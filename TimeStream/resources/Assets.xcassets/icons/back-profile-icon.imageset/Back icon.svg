@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Back icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Celebrity--profile---donate-button" transform="translate(-16.000000, -56.000000)">
+            <g id="Back-icon" transform="translate(16.000000, 56.000000)">
+                <rect id="Rectangle" fill-opacity="0.4" fill="#B6B6B6" x="0" y="0" width="37.5652174" height="36" rx="12"></rect>
+                <path d="M23.0937502,18.7274718 L15.3085228,26.5126993 C15.0535228,26.7676993 14.7135228,26.908722 14.3522728,26.908722 C13.9910228,26.908722 13.6510227,26.7676993 13.3960227,26.5126993 C13.1410227,26.2576993 13,25.9176992 13,25.5564492 C13,25.1951992 13.1410227,24.8551992 13.3960227,24.6001992 L19.5430683,18.4550854 L13.3960227,12.3080398 C12.8686364,11.7806535 12.8686364,10.9229262 13.3960227,10.3955398 C13.9234091,9.86815341 14.7811364,9.86815341 15.3085228,10.3955398 L23.0937502,18.1826991 C23.2463639,18.3333809 23.2463639,18.57679 23.0937502,18.7274718 Z" fill="#FFFFFF" fill-rule="nonzero" transform="translate(18.104105, 18.454361) scale(-1, 1) translate(-18.104105, -18.454361) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="86" height="86" viewBox="0 0 86 86">
+  <g id="greetings" opacity="0.503">
+    <path id="Path" d="M43,0A43,43,0,0,0,6.868,66.318L.2,82.4A2.6,2.6,0,0,0,3.6,85.8l16.085-6.663A43,43,0,1,0,43,0Z" fill="#afb7c5"/>
+    <path id="Path-2" data-name="Path" d="M0,0V75.618A37.809,37.809,0,0,0,37.809,37.809,37.809,37.809,0,0,0,0,0Z" transform="translate(43 5.191)" fill="#fff"/>
+    <path id="Path-3" data-name="Path" d="M70.427,37.809C70.427,16.928,55.823,0,37.809,0a37.809,37.809,0,0,0,0,75.618C55.823,75.618,70.427,58.69,70.427,37.809Z" transform="translate(5.191 5.191)" fill="#fff"/>
+    <path id="Path-4" data-name="Path" d="M0,0V54.853A27.427,27.427,0,0,0,27.427,27.427,27.427,27.427,0,0,0,0,0Z" transform="translate(43 15.573)" fill="#989dac"/>
+    <path id="Path-5" data-name="Path" d="M49.662,27.427C49.662,12.279,39.707,0,27.427,0a27.427,27.427,0,0,0,0,54.853C39.707,54.853,49.662,42.574,49.662,27.427Z" transform="translate(15.573 15.573)" fill="#afb7c5"/>
+    <path id="Path-6" data-name="Path" d="M11.2.028a2.591,2.591,0,0,1,2.895,3.2A14.554,14.554,0,0,1,9.36,10.7L0,9.794,9.363.289c.3-.04.607-.081.91-.126Z" transform="translate(42.999 43.058)" fill="#929597"/>
+    <path id="Path-7" data-name="Path" d="M3.907.163,2.979.028a2.591,2.591,0,0,0-2.895,3.2A14.562,14.562,0,0,0,4.819,10.7L21.242,9.114a19.473,19.473,0,0,0,2.3-8.825A71.071,71.071,0,0,1,3.907.163Z" transform="translate(28.821 43.058)" fill="#929597"/>
+    <path id="Path-8" data-name="Path" d="M7.063,0,0,4.987A14.5,14.5,0,0,0,9.36,1.582,14.579,14.579,0,0,0,7.063,0Z" transform="translate(42.999 52.172)" fill="#989dac"/>
+    <path id="Path-9" data-name="Path" d="M17,1.826c-1.779,3.056-4.4,4.987-7.312,4.987A15.33,15.33,0,0,1,0,3.407,15.51,15.51,0,0,1,17,1.826Z" transform="translate(33.639 50.346)" fill="#989dac"/>
+    <g id="Group" transform="translate(27.427 32.674)">
+      <circle id="Oval" cx="2.596" cy="2.596" r="2.596" transform="translate(25.956 0)" fill="#929597"/>
+      <circle id="Oval-2" data-name="Oval" cx="2.596" cy="2.596" r="2.596" transform="translate(0 0)" fill="#929597"/>
+    </g>
+  </g>
+</svg>

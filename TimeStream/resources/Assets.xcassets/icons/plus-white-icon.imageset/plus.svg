@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>plus</title>
+    <g id="v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-profile-" transform="translate(-257.000000, -553.000000)" fill="#FFFFFF">
+            <g id="Group-9" transform="translate(20.000000, 527.000000)">
+                <g id="Group-11" transform="translate(102.000000, 19.000000)">
+                    <g id="plus" transform="translate(135.000000, 7.000000)">
+                        <path d="M7.14194683,10.1507502 C7.14194683,11.9899106 4.36256851,11.9899106 4.36256851,10.1507502 L4.36256851,7.17979895 L1.37209816,7.17979895 C-0.457366053,7.17979895 -0.457366053,4.38569 1.37209816,4.38569 L4.36256851,4.38569 L4.36256851,1.37937024 C4.36256851,-0.459790081 7.14194683,-0.459790081 7.14194683,1.37937024 L7.14194683,4.38569 L10.1324172,4.38569 C11.9266994,4.38569 11.9266994,7.17979895 10.1324172,7.17979895 L7.14194683,7.17979895 L7.14194683,10.1507502 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

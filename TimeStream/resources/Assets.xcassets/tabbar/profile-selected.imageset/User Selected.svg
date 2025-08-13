@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="26px" viewBox="0 0 20 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>User Selected</title>
+    <g id="v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iphone-xs" transform="translate(-372.000000, -167.000000)" fill="#AFB7C5" fill-rule="nonzero">
+            <g id="Tab-bar-Copy-4" transform="translate(44.000000, 154.000000)">
+                <g id="User-Selected" transform="translate(328.000000, 13.000000)">
+                    <path d="M10,0 C6.52265714,0 3.7037,2.82700889 3.7037,6.31428778 C3.7037,9.80156667 6.52265714,12.6286333 10,12.6286333 C13.4772857,12.6286333 16.2962857,9.80156667 16.2962857,6.31428778 C16.2962857,2.82700889 13.4772857,0 10,0 Z" id="Path"></path>
+                    <path d="M13.7157143,15.4377889 C11.2541429,15.0437444 8.74585714,15.0437444 6.28434286,15.4377889 L6.0205,15.4799667 C2.5521,16.0350667 0,19.0353222 0,22.5576 C0,24.4587778 1.5368,26 3.43254286,26 L16.5674286,26 C18.4631429,26 20,24.4587778 20,22.5576 C20,19.0353222 17.4478571,16.0350667 13.9795714,15.4799667 L13.7157143,15.4377889 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

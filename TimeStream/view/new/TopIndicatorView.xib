@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TopIndicatorView" customModule="TimeStream" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="77"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ny7-yv-sv4">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="77"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zbv-xh-VB3">
+                            <rect key="frame" x="0.0" y="0.0" width="50" height="77"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fuz-co-P0T">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="77"/>
+                                    <color key="backgroundColor" name="accent-color"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="ugj-Bx-07X"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="zbv-xh-VB3" firstAttribute="top" secondItem="Ny7-yv-sv4" secondAttribute="top" id="1wg-61-jdQ"/>
+                        <constraint firstAttribute="bottom" secondItem="zbv-xh-VB3" secondAttribute="bottom" id="QH9-xE-LVU"/>
+                        <constraint firstItem="zbv-xh-VB3" firstAttribute="leading" secondItem="Ny7-yv-sv4" secondAttribute="leading" id="eP1-f1-bkw"/>
+                        <constraint firstAttribute="trailing" secondItem="zbv-xh-VB3" secondAttribute="trailing" id="hPq-9w-MX5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.29995039397594975" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ny7-yv-sv4" secondAttribute="trailing" id="6N1-DW-5zn"/>
+                <constraint firstAttribute="bottom" secondItem="Ny7-yv-sv4" secondAttribute="bottom" id="6Np-3E-w2O"/>
+                <constraint firstItem="Ny7-yv-sv4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Cl0-fk-04q"/>
+                <constraint firstItem="Ny7-yv-sv4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rjv-sd-FYv"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="stackView" destination="zbv-xh-VB3" id="sTL-L4-POn"/>
+            </connections>
+            <point key="canvasLocation" x="15.942028985507248" y="-191.85267857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="accent-color">
+            <color red="0.27450980392156865" green="0.44313725490196076" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

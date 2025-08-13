@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Btn-active@2x</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Record-a-video-" transform="translate(-156.000000, -571.000000)">
+            <g id="Group" transform="translate(156.000000, 571.000000)">
+                <path d="M39,0 C60.5391052,0 78,17.4608948 78,39 C78,60.5391052 60.5391052,78 39,78 C17.4608948,78 0,60.5391052 0,39 C0,17.4608948 17.4608948,0 39,0 Z M38.8571429,8 C21.8152134,8 8,21.8152134 8,38.8571429 C8,55.8990723 21.8152134,69.7142857 38.8571429,69.7142857 C55.8990723,69.7142857 69.7142857,55.8990723 69.7142857,38.8571429 C69.7142857,21.8152134 55.8990723,8 38.8571429,8 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <rect id="Rectangle" fill="#3772E7" x="28" y="28" width="22" height="22" rx="6"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Compact-Rounded-Medium.otf">
+            <string>SFCompactRounded-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell" customModule="TimeStream" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="171" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="171" height="140"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8oB-9Q-7VO">
+                        <rect key="frame" x="0.0" y="0.0" width="171" height="140"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" ambiguous="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXr-bW-FKn">
+                                <rect key="frame" x="20" y="10" width="10.5" height="120"/>
+                                <fontDescription key="fontDescription" name="SFCompactRounded-Medium" family="SF Compact Rounded" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" text="Arts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rq0-sf-n2q">
+                                <rect key="frame" x="57" y="10" width="10.5" height="120"/>
+                                <fontDescription key="fontDescription" name="SFCompactRounded-Medium" family="SF Compact Rounded" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="gXr-bW-FKn" secondAttribute="bottom" constant="10" id="6lS-dc-hmT"/>
+                            <constraint firstItem="Rq0-sf-n2q" firstAttribute="top" secondItem="8oB-9Q-7VO" secondAttribute="top" constant="10" id="JRK-tx-YGw"/>
+                            <constraint firstAttribute="bottom" secondItem="Rq0-sf-n2q" secondAttribute="bottom" constant="10" id="NaB-ib-18A"/>
+                            <constraint firstAttribute="trailing" secondItem="Rq0-sf-n2q" secondAttribute="trailing" constant="20" id="QWt-mg-5xm"/>
+                            <constraint firstItem="gXr-bW-FKn" firstAttribute="top" secondItem="8oB-9Q-7VO" secondAttribute="top" constant="10" id="cIG-Ao-Nv2"/>
+                            <constraint firstItem="gXr-bW-FKn" firstAttribute="leading" secondItem="8oB-9Q-7VO" secondAttribute="leading" constant="20" id="lIY-iO-ZXE"/>
+                            <constraint firstItem="Rq0-sf-n2q" firstAttribute="leading" secondItem="gXr-bW-FKn" secondAttribute="trailing" id="uVZ-gK-5f0"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="9"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="8oB-9Q-7VO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="F5j-wk-2Qs"/>
+                <constraint firstAttribute="trailing" secondItem="8oB-9Q-7VO" secondAttribute="trailing" id="Md3-lO-ABu"/>
+                <constraint firstItem="8oB-9Q-7VO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fCx-R6-5bp"/>
+                <constraint firstAttribute="bottom" secondItem="8oB-9Q-7VO" secondAttribute="bottom" id="p0D-MQ-oN2"/>
+            </constraints>
+            <size key="customSize" width="171" height="140"/>
+            <connections>
+                <outlet property="categoryLabel" destination="Rq0-sf-n2q" id="FU2-TG-coV"/>
+                <outlet property="containerView" destination="8oB-9Q-7VO" id="WMg-ps-Amt"/>
+                <outlet property="hashtagLabel" destination="gXr-bW-FKn" id="dkv-bc-T5z"/>
+            </connections>
+            <point key="canvasLocation" x="103.62318840579711" y="108.48214285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

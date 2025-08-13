@@ -1,0 +1,6 @@
+framework module Pods_TimeStream {
+  umbrella header "Pods-TimeStream-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,14 @@
+<svg id="Oval_2" data-name="Oval 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="125" viewBox="0 0 125 125">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Oval" cx="62.5" cy="62.5" r="62.5" fill="#eef2f5"/>
+    </clipPath>
+  </defs>
+  <circle id="Oval-2" data-name="Oval" cx="62.5" cy="62.5" r="62.5" fill="#eef2f5"/>
+  <g id="Oval_2-2" data-name="Oval 2" clip-path="url(#clip-path)">
+    <g id="profile" transform="translate(33 30.993)">
+      <ellipse id="Oval-3" data-name="Oval" cx="13.727" cy="13.693" rx="13.727" ry="13.693" transform="matrix(0.987, -0.16, 0.16, 0.987, 14.257, 4.397)" fill="#afb7c5"/>
+      <path id="Path" d="M0,14.656A14.687,14.687,0,0,0,14.694,29.312H45.306A14.656,14.656,0,1,0,45.306,0H14.694A14.687,14.687,0,0,0,0,14.656Z" transform="translate(0 33.695)" fill="#afb7c5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Selected</title>
+    <g id="v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Charity-selection" transform="translate(-346.000000, -239.000000)">
+            <g id="Group-2" transform="translate(0.000000, 139.000000)">
+                <g id="Item" transform="translate(0.000000, 90.000000)">
+                    <g id="Selected" transform="translate(347.000000, 11.000000)">
+                        <circle id="Oval" stroke="#3772E7" fill="#3772E7" cx="11" cy="11" r="11"></circle>
+                        <path d="M17.7130445,7.27709917 C18.0956518,7.64669227 18.0956518,8.24597383 17.7130445,8.61543939 L10.3530363,15.7229008 C9.9702969,16.0923664 9.34969903,16.0923664 8.96709166,15.7229008 L5.28695553,12.1691701 C4.90434816,11.7997045 4.90434816,11.200423 5.28695553,10.8309574 C5.66969497,10.4613643 6.29029284,10.4613643 6.67290021,10.8309574 L9.660064,13.715518 L16.3272319,7.27709917 C16.7098392,6.90763361 17.3304371,6.90763361 17.7130445,7.27709917 Z" id="Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

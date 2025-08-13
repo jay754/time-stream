@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="11px" viewBox="0 0 14 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Eye</title>
+    <g id="v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-profile---state-1" transform="translate(-30.000000, -935.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Post" transform="translate(19.000000, 719.000000)">
+                <g id="Joined" transform="translate(11.220557, 213.338400)">
+                    <g id="Eye" transform="translate(0.000000, 3.242152)">
+                        <path d="M6.47368421,0 C2.99666842,0 0,3.26201065 0,4.8632287 C0,6.46444675 2.99666842,9.7264574 6.47368421,9.7264574 C9.9507,9.7264574 12.9473684,6.46444675 12.9473684,4.8632287 C12.9473684,3.26201065 9.9507,0 6.47368421,0 Z M6.47368421,8.51065022 C3.62526316,8.51065022 1.29473684,5.75684697 1.29473684,4.8632287 C1.29473684,3.96961043 3.62526316,1.21580717 6.47368421,1.21580717 C9.32210526,1.21580717 11.6526316,3.96961043 11.6526316,4.8632287 C11.6526316,5.75684697 9.32210526,8.51065022 6.47368421,8.51065022 Z" id="Shape"></path>
+                        <ellipse id="Oval" cx="6.47368421" cy="4.8632287" rx="2.58947368" ry="2.43161435"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
